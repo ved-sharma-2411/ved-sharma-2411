@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Ved Sharma</h1>
+<h1 align="center"> <img src="file/wave.gif" width="32px" margin-top="10px"> Hi, I'm Ved Sharma</h1>
 <h3 align="center">"Empowering Ideas Through Code | Passionate Developer | Lifelong Learner"</h3>
 
 
@@ -53,5 +53,5 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ## 🔝 Top Contributed Repos  
-![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=ved-sharma-2411&limit=5&theme=dark&combine_all_yearly_contributions=true)
+![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=ved-sharma-2411&limit=5&theme=transparent&hide_border=true&combine_all_yearly_contributions=true)
 
