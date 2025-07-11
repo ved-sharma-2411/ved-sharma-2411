@@ -27,9 +27,9 @@
 
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ved-sharma-2411&theme=transparent&hide_border=true&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-stats-ved.vercel.app/api?username=ved-sharma-2411&theme=transparent&hide_border=true&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=ved-sharma-2411&theme=transparent&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ved-sharma-2411&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+![](https://github-readme-stats-ved.vercel.app/api/top-langs/?username=ved-sharma-2411&theme=transparent&hide_border=true&count_private=true&layout=compact)
 
 <!-- Snake Game Repo View 
 <div align="center">
