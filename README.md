@@ -49,9 +49,6 @@
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ig_ishow.game) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ved-sharma-2411) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/ved-sharma-2411) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vedsh24y4@gmail.com) 
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
 ## 🔝 Top Contributed Repos  
 ![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=ved-sharma-2411&limit=5&theme=transparent&hide_border=true&combine_all_yearly_contributions=true)
 
