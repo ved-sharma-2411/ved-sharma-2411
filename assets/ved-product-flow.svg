@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 260" width="1100" height="260" role="img" aria-label="Ved Sharma product building workflow">
+  <defs>
+    <style><![CDATA[
+      text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      @keyframes fade{from{opacity:0}to{opacity:1}}
+      @keyframes dash{to{stroke-dashoffset:0}}
+      @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+      .f{opacity:0;animation:fade .55s ease forwards}
+      .d{stroke-dasharray:980;stroke-dashoffset:980;animation:dash 1.6s ease forwards}
+      .p{animation:pulse 2.3s ease-in-out infinite}
+    ]]></style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset=".5" stop-color="#071827"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".55" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="1" y="1" width="1098" height="258" rx="16" fill="url(#bg)" stroke="#164e63"/>
+  <text x="36" y="48" font-size="18" fill="#e2e8f0">Your idea. My engineering brain. Let us build something crazy together.</text>
+  <text x="36" y="76" font-size="12" fill="#94a3b8">I do not jump straight into code. Good products need thinking before typing.</text>
+  <g stroke="#020617" stroke-width="4" stroke-linecap="round"><path d="M96 132H242"/><path d="M242 132H388"/><path d="M388 132H534"/><path d="M534 132H680"/><path d="M680 132H826"/><path d="M826 132H972"/></g>
+  <g stroke="url(#edge)" stroke-width="3" stroke-linecap="round" filter="url(#glow)">
+    <path class="d" d="M96 132H242" style="animation-delay:.12s"/>
+    <path class="d" d="M242 132H388" style="animation-delay:.24s"/>
+    <path class="d" d="M388 132H534" style="animation-delay:.36s"/>
+    <path class="d" d="M534 132H680" style="animation-delay:.48s"/>
+    <path class="d" d="M680 132H826" style="animation-delay:.6s"/>
+    <path class="d" d="M826 132H972" style="animation-delay:.72s"/>
+  </g>
+
+  <g class="f" style="animation-delay:.1s" transform="translate(64 84)">
+    <circle class="p" cx="32" cy="48" r="18" fill="#052e3b" stroke="#22d3ee" stroke-width="2"/>
+    <text x="32" y="53" text-anchor="middle" font-size="13" fill="#67e8f9">01</text>
+    <text x="32" y="92" text-anchor="middle" font-size="13" fill="#e2e8f0">Discovery</text>
+    <text x="32" y="114" text-anchor="middle" font-size="11" fill="#94a3b8">problem, users, scope</text>
+  </g>
+  <g class="f" style="animation-delay:.22s" transform="translate(210 84)">
+    <circle class="p" cx="32" cy="48" r="18" fill="#052e3b" stroke="#22d3ee" stroke-width="2" style="animation-delay:.25s"/>
+    <text x="32" y="53" text-anchor="middle" font-size="13" fill="#67e8f9">02</text>
+    <text x="32" y="92" text-anchor="middle" font-size="13" fill="#e2e8f0">HLD</text>
+    <text x="32" y="114" text-anchor="middle" font-size="11" fill="#94a3b8">modules, data flow</text>
+  </g>
+  <g class="f" style="animation-delay:.34s" transform="translate(356 84)">
+    <circle class="p" cx="32" cy="48" r="18" fill="#052e3b" stroke="#22d3ee" stroke-width="2" style="animation-delay:.5s"/>
+    <text x="32" y="53" text-anchor="middle" font-size="13" fill="#67e8f9">03</text>
+    <text x="32" y="92" text-anchor="middle" font-size="13" fill="#e2e8f0">LLD</text>
+    <text x="32" y="114" text-anchor="middle" font-size="11" fill="#94a3b8">schema, APIs, states</text>
+  </g>
+  <g class="f" style="animation-delay:.46s" transform="translate(502 84)">
+    <circle class="p" cx="32" cy="48" r="18" fill="#2a1608" stroke="#f97316" stroke-width="2" style="animation-delay:.75s"/>
+    <text x="32" y="53" text-anchor="middle" font-size="13" fill="#fdba74">04</text>
+    <text x="32" y="92" text-anchor="middle" font-size="13" fill="#e2e8f0">Infra</text>
+    <text x="32" y="114" text-anchor="middle" font-size="11" fill="#94a3b8">cloud, auth, queues</text>
+  </g>
+  <g class="f" style="animation-delay:.58s" transform="translate(648 84)">
+    <circle class="p" cx="32" cy="48" r="18" fill="#052e16" stroke="#22c55e" stroke-width="2" style="animation-delay:1s"/>
+    <text x="32" y="53" text-anchor="middle" font-size="13" fill="#86efac">05</text>
+    <text x="32" y="92" text-anchor="middle" font-size="13" fill="#e2e8f0">Build</text>
+    <text x="32" y="114" text-anchor="middle" font-size="11" fill="#94a3b8">frontend + backend</text>
+  </g>
+  <g class="f" style="animation-delay:.7s" transform="translate(794 84)">
+    <circle class="p" cx="32" cy="48" r="18" fill="#052e16" stroke="#22c55e" stroke-width="2" style="animation-delay:1.25s"/>
+    <text x="32" y="53" text-anchor="middle" font-size="13" fill="#86efac">06</text>
+    <text x="32" y="92" text-anchor="middle" font-size="13" fill="#e2e8f0">Test</text>
+    <text x="32" y="114" text-anchor="middle" font-size="11" fill="#94a3b8">edge cases, UX, load</text>
+  </g>
+  <g class="f" style="animation-delay:.82s" transform="translate(940 84)">
+    <circle class="p" cx="32" cy="48" r="18" fill="#2a1608" stroke="#f97316" stroke-width="2" style="animation-delay:1.5s"/>
+    <text x="32" y="53" text-anchor="middle" font-size="13" fill="#fdba74">07</text>
+    <text x="32" y="92" text-anchor="middle" font-size="13" fill="#e2e8f0">Ship</text>
+    <text x="32" y="114" text-anchor="middle" font-size="11" fill="#94a3b8">deploy, monitor</text>
+    <text x="32" y="132" text-anchor="middle" font-size="11" fill="#94a3b8">improve</text>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 92" width="1100" height="92" role="img" aria-label="Ved Sharma build status strip">
+  <defs>
+    <style><![CDATA[
+      text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+      @keyframes scan{0%{transform:translateX(-220px)}100%{transform:translateX(1120px)}}
+      @keyframes dash{to{stroke-dashoffset:0}}
+      .p{animation:pulse 2.4s ease-in-out infinite}
+      .s{animation:scan 5s linear infinite}
+      .d{stroke-dasharray:1100;stroke-dashoffset:1100;animation:dash 1.2s ease forwards}
+    ]]></style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset=".5" stop-color="#071827"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".52" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#22d3ee" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1098" height="90" rx="12" fill="url(#bg)" stroke="#164e63"/>
+  <rect class="s" x="0" y="0" width="220" height="92" fill="url(#shine)"/>
+  <path class="d" d="M32 68H1068" stroke="url(#line)" stroke-width="2" stroke-linecap="round"/>
+  <g transform="translate(36 28)">
+    <circle class="p" cx="0" cy="0" r="5" fill="#22c55e"/>
+    <text x="16" y="5" font-size="15" fill="#e2e8f0">RAG ONLINE</text>
+  </g>
+  <g transform="translate(248 28)">
+    <circle class="p" cx="0" cy="0" r="5" fill="#22d3ee" style="animation-delay:.35s"/>
+    <text x="16" y="5" font-size="15" fill="#e2e8f0">ERP / SAAS BUILDER</text>
+  </g>
+  <g transform="translate(520 28)">
+    <circle class="p" cx="0" cy="0" r="5" fill="#f97316" style="animation-delay:.7s"/>
+    <text x="16" y="5" font-size="15" fill="#e2e8f0">VOICE AGENT LAB</text>
+  </g>
+  <g transform="translate(778 28)">
+    <circle class="p" cx="0" cy="0" r="5" fill="#38bdf8" style="animation-delay:1.05s"/>
+    <text x="16" y="5" font-size="15" fill="#e2e8f0">FULL STACK FROM SCRATCH</text>
+  </g>
+  <text x="36" y="78" font-size="12" fill="#94a3b8">signal: systems that parse messy inputs, make decisions, and survive real users</text>
+  <text x="1064" y="78" text-anchor="end" font-size="12" fill="#67e8f9">vedsharma.me</text>
+</svg>

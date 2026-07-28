@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" width="1100" height="520" role="img" aria-label="Ved Sharma production systems table">
+  <defs>
+    <style><![CDATA[
+      text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      @keyframes scan{0%{transform:translateX(-220px)}100%{transform:translateX(1120px)}}
+      @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+      .scan{animation:scan 6s linear infinite}
+      .row{opacity:0;animation:fade .5s ease forwards}
+      .live{animation:pulse 2.1s ease-in-out infinite}
+    ]]></style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset=".55" stop-color="#071827"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".55" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#22d3ee" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect x="1" y="1" width="1098" height="518" rx="18" fill="url(#bg)" stroke="#164e63"/>
+  <rect class="scan" x="0" y="0" width="220" height="520" fill="url(#shine)"/>
+
+  <text x="34" y="46" font-size="18" fill="#e2e8f0">Production Systems</text>
+  <text x="34" y="74" font-size="12" fill="#94a3b8">A cleaner table view of the real systems I have shipped, rebuilt, or currently maintain.</text>
+  <path d="M34 98H1066" stroke="url(#edge)" stroke-width="2" stroke-linecap="round" filter="url(#glow)"/>
+
+  <rect x="34" y="122" width="1032" height="42" rx="10" fill="#0f172a" stroke="#164e63"/>
+  <text x="58" y="149" font-size="12" fill="#67e8f9">SYSTEM</text>
+  <text x="310" y="149" font-size="12" fill="#67e8f9">WHAT I BUILT</text>
+  <text x="980" y="149" text-anchor="end" font-size="12" fill="#67e8f9">RESULT</text>
+
+  <g class="row" style="animation-delay:.05s">
+    <rect x="34" y="174" width="1032" height="48" rx="9" fill="#08111f" stroke="#263548"/>
+    <circle class="live" cx="58" cy="198" r="5" fill="#22c55e"/>
+    <text x="76" y="202" font-size="12" fill="#e2e8f0">RAG Chatbot Platform</text>
+    <text x="310" y="194" font-size="11" fill="#94a3b8">full-stack chatbot, API, retrieval engine, upload automation, parsing, chunking,</text>
+    <text x="310" y="211" font-size="11" fill="#94a3b8">embeddings, vector search, BM25, citations, deployment</text>
+    <text x="980" y="202" text-anchor="end" font-size="12" fill="#fdba74">10k+ users / approx. 98%</text>
+  </g>
+
+  <g class="row" style="animation-delay:.12s">
+    <rect x="34" y="232" width="1032" height="48" rx="9" fill="#08111f" stroke="#263548"/>
+    <circle class="live" cx="58" cy="256" r="5" fill="#22c55e"/>
+    <text x="76" y="260" font-size="12" fill="#e2e8f0">PDF/CSV Intelligence Dashboard</text>
+    <text x="310" y="252" font-size="11" fill="#94a3b8">complete frontend, backend, APIs, upload flow, AWS processing pipeline,</text>
+    <text x="310" y="269" font-size="11" fill="#94a3b8">financial reconciliation, dashboard snapshots, review workflow</text>
+    <text x="980" y="260" text-anchor="end" font-size="12" fill="#fdba74">5k+ active users</text>
+  </g>
+
+  <g class="row" style="animation-delay:.19s">
+    <rect x="34" y="290" width="1032" height="42" rx="9" fill="#08111f" stroke="#263548"/>
+    <circle cx="58" cy="311" r="5" fill="#38bdf8"/>
+    <text x="76" y="315" font-size="12" fill="#e2e8f0">ApnaEduHub School ERP</text>
+    <text x="310" y="315" font-size="11" fill="#94a3b8">React Native mobile app plus Vite / React / TypeScript admin portal</text>
+    <text x="980" y="315" text-anchor="end" font-size="12" fill="#67e8f9">ERP build</text>
+  </g>
+
+  <g class="row" style="animation-delay:.26s">
+    <rect x="34" y="342" width="1032" height="42" rx="9" fill="#08111f" stroke="#263548"/>
+    <circle cx="58" cy="363" r="5" fill="#38bdf8"/>
+    <text x="76" y="367" font-size="12" fill="#e2e8f0">NexusPDF</text>
+    <text x="310" y="367" font-size="11" fill="#94a3b8">browser-based PDF toolkit with 21 tools, Supabase auth, profile dashboard</text>
+    <text x="980" y="367" text-anchor="end" font-size="12" fill="#67e8f9">product build</text>
+  </g>
+
+  <g class="row" style="animation-delay:.33s">
+    <rect x="34" y="394" width="1032" height="42" rx="9" fill="#08111f" stroke="#263548"/>
+    <circle cx="58" cy="415" r="5" fill="#f97316"/>
+    <text x="76" y="419" font-size="12" fill="#e2e8f0">AI Voice Agent</text>
+    <text x="310" y="419" font-size="11" fill="#94a3b8">personal voice-first AI workflow with conversational automation and API integrations</text>
+    <text x="980" y="419" text-anchor="end" font-size="12" fill="#fdba74">personal build</text>
+  </g>
+
+  <g class="row" style="animation-delay:.4s">
+    <rect x="34" y="446" width="1032" height="42" rx="9" fill="#020617" stroke="#263548"/>
+    <circle cx="58" cy="467" r="5" fill="#94a3b8"/>
+    <text x="76" y="471" font-size="12" fill="#e2e8f0">Portfolio v2</text>
+    <text x="310" y="471" font-size="11" fill="#94a3b8">modern animated portfolio focused on AI engineering work, case studies, proof</text>
+    <text x="980" y="471" text-anchor="end" font-size="12" fill="#94a3b8">rebuilding</text>
+  </g>
+</svg>

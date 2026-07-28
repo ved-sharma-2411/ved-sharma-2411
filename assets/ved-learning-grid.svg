@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 390" width="1100" height="390" role="img" aria-label="Ved Sharma currently learning">
+  <defs>
+    <style><![CDATA[
+      text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+      @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+      .node{animation:pulse 2.4s ease-in-out infinite}
+      .card{opacity:0;animation:rise .65s ease forwards}
+    ]]></style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#020617"/><stop offset=".55" stop-color="#071827"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#f97316"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="1" y="1" width="1098" height="388" rx="18" fill="url(#bg)" stroke="#164e63"/>
+  <text x="34" y="46" font-size="18" fill="#e2e8f0">Currently Learning</text>
+  <text x="34" y="74" font-size="12" fill="#94a3b8">The new baseline for serious AI products: agents, voice, evals, multimodal retrieval, and cloud reliability.</text>
+
+  <g transform="translate(74 122)">
+    <circle cx="84" cy="84" r="72" fill="#020617" stroke="#164e63"/>
+    <circle class="node" cx="84" cy="84" r="34" fill="#052e3b" stroke="#22d3ee" stroke-width="2" filter="url(#glow)"/>
+    <text x="84" y="80" text-anchor="middle" font-size="12" fill="#67e8f9">AI</text>
+    <text x="84" y="98" text-anchor="middle" font-size="12" fill="#e2e8f0">CORE</text>
+  </g>
+
+  <g class="card" style="animation-delay:.08s">
+    <rect x="250" y="120" width="380" height="82" rx="12" fill="#08111f" stroke="#164e63"/>
+    <text x="274" y="152" font-size="14" fill="#67e8f9">agentic systems</text>
+    <text x="274" y="178" font-size="12" fill="#94a3b8">tool calling, memory, planning, workflow orchestration</text>
+  </g>
+  <g class="card" style="animation-delay:.18s">
+    <rect x="666" y="120" width="380" height="82" rx="12" fill="#08111f" stroke="#263548"/>
+    <text x="690" y="152" font-size="14" fill="#fdba74">real-time voice AI</text>
+    <text x="690" y="178" font-size="12" fill="#94a3b8">speech UX, low-latency APIs, interruption handling</text>
+  </g>
+  <g class="card" style="animation-delay:.28s">
+    <rect x="250" y="232" width="380" height="82" rx="12" fill="#08111f" stroke="#263548"/>
+    <text x="274" y="264" font-size="14" fill="#86efac">AI quality</text>
+    <text x="274" y="290" font-size="12" fill="#94a3b8">evals, tracing, grounding checks, hallucination control</text>
+  </g>
+  <g class="card" style="animation-delay:.38s">
+    <rect x="666" y="232" width="380" height="82" rx="12" fill="#08111f" stroke="#263548"/>
+    <text x="690" y="264" font-size="14" fill="#67e8f9">multimodal + cloud AI</text>
+    <text x="690" y="290" font-size="12" fill="#94a3b8">PDF, CSV, image intelligence, containers, serverless</text>
+  </g>
+  <path d="M200 206H250M630 161H666M630 273H666" stroke="url(#edge)" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+</svg>

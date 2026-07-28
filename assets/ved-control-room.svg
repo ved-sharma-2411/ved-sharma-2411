@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-label="Ved Sharma control room profile panel">
+  <defs>
+    <style><![CDATA[
+      text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+      @keyframes scan{0%{transform:translateX(-180px)}100%{transform:translateX(780px)}}
+      @keyframes grow{from{width:0}to{width:var(--w)}}
+      .f{opacity:0;animation:fade .55s ease forwards}
+      .p{animation:pulse 2.2s ease-in-out infinite}
+      .s{animation:scan 5s linear infinite}
+      .bar{width:0;animation:grow .9s ease forwards}
+    ]]></style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset=".58" stop-color="#071827"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".55" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#22d3ee" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="1" y="1" width="758" height="358" rx="16" fill="url(#bg)" stroke="#164e63"/>
+  <rect class="s" width="180" height="360" fill="url(#shine)"/>
+  <text x="28" y="44" font-size="13" fill="#22c55e">ved@control-room</text>
+  <text x="185" y="44" font-size="13" fill="#94a3b8">status --profile</text>
+  <circle class="p" cx="712" cy="39" r="6" fill="#22c55e"/>
+  <text x="690" y="62" font-size="10" fill="#94a3b8">ONLINE</text>
+
+  <g class="f" style="animation-delay:.1s">
+    <rect x="28" y="78" width="312" height="78" rx="12" fill="#08111f" stroke="#164e63"/>
+    <text x="48" y="112" font-size="15" fill="#e2e8f0">AI Engineer @ Vyntics</text>
+    <text x="48" y="138" font-size="12" fill="#94a3b8">RAG systems / ERP apps / SaaS flows</text>
+  </g>
+  <g class="f" style="animation-delay:.2s">
+    <rect x="362" y="78" width="370" height="78" rx="12" fill="#08111f" stroke="#263548"/>
+    <text x="382" y="112" font-size="15" fill="#e2e8f0">Full Stack Product Builder</text>
+    <text x="382" y="138" font-size="12" fill="#94a3b8">frontend + backend + mobile + cloud + database</text>
+  </g>
+
+  <g class="f" style="animation-delay:.32s">
+    <text x="32" y="200" font-size="12" fill="#94a3b8">PRODUCTION SIGNALS</text>
+    <rect x="32" y="216" width="696" height="8" rx="4" fill="#0f172a"/>
+    <rect class="bar" x="32" y="216" height="8" rx="4" fill="url(#edge)" style="--w:640px;animation-delay:.8s"/>
+  </g>
+  <g class="f" style="animation-delay:.45s">
+    <text x="32" y="258" font-size="13" fill="#22d3ee">10k+</text>
+    <text x="92" y="258" font-size="13" fill="#cbd5e1">RAG users</text>
+    <text x="220" y="258" font-size="13" fill="#f97316">5k+</text>
+    <text x="274" y="258" font-size="13" fill="#cbd5e1">dashboard users</text>
+    <text x="440" y="258" font-size="13" fill="#22d3ee">98%</text>
+    <text x="488" y="258" font-size="13" fill="#cbd5e1">approx. answer accuracy</text>
+  </g>
+
+  <g class="f" style="animation-delay:.58s">
+    <rect x="28" y="288" width="704" height="44" rx="10" fill="#020617" stroke="#263548"/>
+    <text x="48" y="316" font-size="13" fill="#e2e8f0">current:</text>
+    <text x="118" y="316" font-size="13" fill="#94a3b8">AI Voice Agent lab + portfolio v2 + agentic workflows</text>
+  </g>
+  <path d="M28 64H732" stroke="url(#edge)" stroke-width="2" filter="url(#glow)"/>
+</svg>
